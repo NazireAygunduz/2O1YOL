@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../dış giyim"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../modasitesi2"
+		},
+		{
+			"path": "../modasitesi"
+		},
+		{
+			"path": "../ÜST"
+		},
+		{
+			"path": "../üst giyim"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dış giyim"
+	}
+}

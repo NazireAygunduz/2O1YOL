@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda Sayfası</title>
+  <style>
+    /* Genel düzen */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Başlık bölümü */
+    .header {
+      width: 100%;
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    .header img {
+      width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    /* Kart düzenleyen bir kapsayıcı aslında */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+      /* burası kartın büyümesini sağlıyor */
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .card-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+      color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card-content h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .card-content p {
+      margin: 5px 0 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Başlık bölümü -->
+  <div class="header">
+    
+    <h1>Elbise Koleksiyonumuz</h1>
+  </div>
+
+  <!-- Kartlar -->
+  <div class="card-container">
+    <div class="card">
+      <img src="image/indir (3).jpg">
+      <div class="card-content">
+        <h2>Rashario Özel Koleksiyon</h2>
+        
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/indir (5).jpg" alt="Elbise 2">
+      <div class="card-content">
+        <h2>White Swan Elbise</h2>
+      
+      </div>
+    </div>
+    <div class="card">
+      <img src="image/indir (7).jpg">
+      <div class="card-content">
+        <h2>Mango Asimetrik Elbise</h2>
+        
+      </div>
+    </div>
+    <div class="card">
+        <img src="image/63ecd4ba38a5fc011e000f2a0c5de99b.jpg">
+        <div class="card-content">
+          <h2>Bershka Kiraz Elbise </h2>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/51d79f78da29061a353bb3ede3ad1a4c.jpg">
+        <div class="card-content">
+          <h2>Full Payet Elbise</h2>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/a4d248d497250d0e1f3d31a3779c09f9.jpg">
+        <div class="card-content">
+          <h2>Zara Asimetrik Pembe Elbise</h2>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/98c7d4872d0c2e465b5d03ab11ce0068.jpg">
+        <div class="card-content">
+          <h2>Mango Tül Elbise</h2>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/versace.jpg">
+        <div class="card-content">
+          <h2>Versace Elbise </h2>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/ellie saab.jpg">
+        <div class="card-content">
+          <h2> Ellie Saab Özel Koleksiyon</h2>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="image/a872cfe076a32d5e6fa30e0d8638994b.jpg">
+        <div class="card-content">
+          <h2>Kahverengi Deri Elbise</h2>
+          
+        </div>
+      </div>
+  </div>
+</body>
+</html>
