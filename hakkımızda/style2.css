@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #d7ccc8;
+}
+.aboutus {
+  width: 100%;
+  text-align: center;
+  background-color: #5d4037;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.acıklama {
+  margin-top: 10%;
+  
+  margin-left: 250px;
+  margin-right: 50px;
+  width: 70%;
+  height: 20%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d4037;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0%, 60%);
+}
+.acıklama:hover{
+  background-color: #5d4037b6;
+}
+.mail img {
+  
+  border-radius: 100%;
+  transform: translate(150%, 100%);
+  width: 35%;
+  height: 35%;
+}
+
+.contact {
+  margin-top: 20%;
+
+
+}
