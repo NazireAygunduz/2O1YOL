@@ -1,0 +1,105 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Sayfa genel düzeni */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #FFEBEE;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  top: 0;  
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #E57373; /* Arka planı koyu gri yapıyoruz */
+  overflow: hidden; /* Taşan öğeleri gizliyoruz */
+ position: sticky; 
+ padding: 0 70px;
+ color: 	#3E2723;
+}
+
+
+.navbar .links{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 480px;
+  
+}
+
+.navbar img {
+  width: 50px; /* Resmin genişliğini 300px yapıyoruz */
+  height: auto; /* Yüksekliği oranlı olarak ayarlıyoruz */
+  border-radius: 1000px; /* Köşeleri yuvarlatıyoruz */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.252); /* Hafif gölge ekliyoruz */
+}
+
+.navbar a {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255); /* Bağlantıların rengi beyaz olacak */
+  text-decoration: none; /* Bağlantılardaki alt çizgiyi kaldırıyoruz */
+  color: 	#3E2723;
+}
+.navbar a:hover {
+  
+  color: 	#AD1457; /* Rengi siyah yapıyoruz */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.title h1{
+  font-size: 40px;
+  color:	#3E2723;
+}
+.title p{
+  font-size: 20px;
+  color: 	#3E2723;
+}
+
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+
+.swiper {
+  width: 400px;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
